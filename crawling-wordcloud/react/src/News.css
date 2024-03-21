@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.pagination {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center; /* 가로 중앙 정렬을 위한 스타일 */
+  align-items: center; /* 세로 중앙 정렬을 위한 스타일 */ 
+}
+
+.pagination li {
+  list-style: none;
+  margin-right: 30px; /* 간격 조절을 위한 스타일 */
+  display: inline-block; /* li 요소들을 인라인 블록으로 표시하여 가로 배치 */
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
