@@ -11,12 +11,12 @@ wordcloud 이미지 생성
 
 * 필요한 테이블
 CREATE TABLE `news` (
-  `idx` int NOT NULL AUTO_INCREMENT,
-  `image_url` text NOT NULL,
-  `title` varchar(255) NOT NULL,
-  `url` varchar(255) NOT NULL,
-  `views` int DEFAULT NULL,
-  `isLiked` tinyint(1) DEFAULT NULL,
-  `pubDate` datetime NOT NULL,
-  PRIMARY KEY (`idx`)
+`idx` int NOT NULL AUTO_INCREMENT,
+`image_url` text NOT NULL,
+`title` varchar(255) NOT NULL,
+`url` varchar(255) NOT NULL,
+`views` int DEFAULT NULL,
+`isLiked` tinyint(1) DEFAULT NULL,
+`pubDate` datetime NOT NULL,
+PRIMARY KEY (`idx`)
 );
