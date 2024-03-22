@@ -1,6 +1,5 @@
 ## crawling_and_wordcloud
 
----
 * 크롤링
 
 BeautifulSoup와 네이버 검색 API를 활용한 뉴스 데이터 크롤링
